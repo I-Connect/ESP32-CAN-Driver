@@ -27,7 +27,7 @@
  *
  */
 
-#include "CAN.h"
+#include "include/CAN.h"
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/queue.h"
@@ -38,8 +38,8 @@
 
 #include "driver/gpio.h"
 
-#include "can_regdef.h"
-#include "CAN_config.h"
+#include "include/can_regdef.h"
+#include "include/CAN_config.h"
 
 
 static void CAN_read_frame();
